@@ -69,13 +69,43 @@ ul li strong {
     color: #333;
 }
 
-/* Footer Section */
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
+/* Product Gallery Section */
+.product-gallery {
     margin-top: 50px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px; /* Smooth corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    border-radius: 10px;
+}
+
+/* Product Details */
+.card-body {
+    padding: 15px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+    margin: 15px 0;
+}
+
+.price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #e74c3c; /* Red color for price */
 }
 
 /* Button Styles */
@@ -94,4 +124,92 @@ button {
 
 button:hover {
     background-color: #2ecc71; /* Lighter green */
+}
+
+/* Main Content Section */
+.container.mt-5 h2 {
+    font-size: 2.5rem;
+    color: #3498db;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container.mt-5 p {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Promotions Section */
+.container.mt-5 h2 {
+    font-size: 2.5rem;
+    color: #e74c3c;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container.mt-5 p {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.container.mt-5 button {
+    display: block;
+    margin: 0 auto;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.container.mt-5 button:hover {
+    background-color: #c0392b; /* Darker red */
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #e74c3c;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar-nav .nav-item .nav-link {
+        font-size: 1rem;
+    }
+
+    .container.mt-5 h2 {
+        font-size: 2rem;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .container.mt-5 button {
+        width: 100%;
+    }
 }
