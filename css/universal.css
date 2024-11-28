@@ -42,14 +42,31 @@ header h1 {
     font-weight: bold;
 }
 
-header h2 {
+/* Contact Form Section */
+.container.mt-5 h3 {
     font-size: 2rem;
-    margin-top: 20px;
+    color: #3498db;
+    margin-bottom: 20px;
 }
 
-header p {
+.form-control {
+    border-radius: 5px;
+}
+
+/* Contact Information */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
     font-size: 1.2rem;
-    margin-top: 10px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+ul li strong {
+    color: #333;
 }
 
 /* Product Gallery Section */
@@ -61,18 +78,10 @@ header p {
     border: none;
     border-radius: 10px; /* Smooth corners */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
 
 .card-img-top {
     border-radius: 10px;
-    height: 200px;
-    object-fit: cover;
 }
 
 /* Product Details */
@@ -99,6 +108,7 @@ header p {
     color: #e74c3c; /* Red color for price */
 }
 
+/* Button Styles */
 button {
     display: block;
     margin: 0 auto;
@@ -131,39 +141,22 @@ button:hover {
     margin-bottom: 30px;
 }
 
-.container.mt-5 button {
-    display: block;
-    margin: 0 auto;
-    padding: 15px 30px;
-    font-size: 1.1rem;
-    background-color: #3498db;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.container.mt-5 button:hover {
-    background-color: #2980b9; /* Darker blue */
-}
-
 /* Promotions Section */
-.container.mt-5 h2.promo {
+.container.mt-5 h2 {
     font-size: 2.5rem;
     color: #e74c3c;
     text-align: center;
     margin-bottom: 20px;
 }
 
-.container.mt-5 p.promo-desc {
+.container.mt-5 p {
     font-size: 1.2rem;
     text-align: center;
     color: #555;
     margin-bottom: 30px;
 }
 
-.container.mt-5 button.promo-btn {
+.container.mt-5 button {
     display: block;
     margin: 0 auto;
     padding: 15px 30px;
@@ -176,15 +169,17 @@ button:hover {
     transition: background-color 0.3s ease;
 }
 
-.container.mt-5 button.promo-btn:hover {
+.container.mt-5 button:hover {
     background-color: #c0392b; /* Darker red */
 }
 
-/* Footer Styling */
+/* Footer Section */
 footer {
     background-color: #333;
     color: white;
+    text-align: center;
     padding: 20px;
+    margin-top: 50px;
 }
 
 footer p {
