@@ -1,0 +1,164 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Navbar customization */
+nav {
+    background-color: #333;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 1.1rem;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #e74c3c; /* Hover effect color */
+}
+
+/* Header Styling */
+header {
+    background-color: #ff6347;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+header h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Product Gallery Section */
+.container.mt-5 .row {
+    margin-top: 50px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px; /* Smooth corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+    border-radius: 10px 10px 0 0;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Product Details */
+.card-body {
+    padding: 15px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+    margin: 15px 0;
+}
+
+.price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #e74c3c; /* Red color for price */
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #27ae60;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2ecc71; /* Lighter green */
+}
+
+/* Main Content Section */
+.container.mt-5 h2 {
+    font-size: 2.5rem;
+    color: #3498db;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container.mt-5 p {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.container.mt-5 button {
+    display: block;
+    margin: 0 auto;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.container.mt-5 button:hover {
+    background-color: #2ecc71;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 1rem;
+    margin: 0;
+}
+
